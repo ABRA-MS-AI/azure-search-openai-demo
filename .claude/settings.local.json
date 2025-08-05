@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth:*)",
+      "Bash(winget install:*)",
+      "Bash(taskkill:*)",
+      "Bash(powershell:*)",
+      "Bash(gh:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(msiexec:*)",
+      "Bash(start gh_2.76.2_windows_amd64.msi)",
+      "Bash(claude-code --help)",
+      "Bash(where claude)",
+      "Bash(claude --version)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": []
+  }
+}
